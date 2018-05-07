@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :discuss, Discuss.Endpoint,
   load_from_system_env: true,
-  # http: [port: {:system, "PORT"}], # Uncomment this line if you are running Phoenix 1.2
+  http: [port: {:system, "PORT"}], # Uncomment this line if you are running Phoenix 1.2
   server: true, # Without this line, your app will not start the web server!
   secret_key_base: "${SECRET_KEY_BASE}",
   url: [host: "example.com", port: 80],
