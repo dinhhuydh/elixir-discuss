@@ -42,7 +42,8 @@ defmodule Discuss.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:ueberauth, "~> 0.4"},
-      {:ueberauth_github, "~> 0.7", path: 'deps/ueberauth_github'}
+      {:distillery, "~> 1.0.0"},
+      {:ueberauth_github, "~> 0.7", github: 'ueberauth/ueberauth_github'}
     ]
   end
 
